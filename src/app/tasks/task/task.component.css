@@ -1,0 +1,38 @@
+.task-container {
+  padding: 1rem;
+  color: #25113d;
+  background-color: #bf9ee5;
+}
+
+.task-title {
+  margin: 0;
+}
+
+.task-details {
+  font-size: 14px;
+  color: #25113d;
+  line-height: 1.5;
+}
+
+.task-time {
+    color: #3c2c50;
+}
+
+.task-actions {
+    text-align: right;
+    margin: 0;
+}
+
+.task-actions button {
+  padding: 8px 12px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 4px;
+  background-color: #9965dd;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.task-actions button:hover {
+  background-color: #a565dd;
+}
